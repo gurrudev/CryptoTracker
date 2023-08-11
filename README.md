@@ -28,29 +28,10 @@
   <img src="https://img.shields.io/badge/000webhost.com-430098?style=for-the-badge&logo=cyclic&logoColor=white" alt="cyclic" />
 </p>
 
-<h3 align=""><a href="https://warehousejetha.000webhostapp.com/"><strong>Want to see live preview »</strong></a></h3>
+<h3 align=""><a href=""><strong>Want to see live preview »</strong></a></h3>
 
 <br />
-Please change connection details in /php_action/db_connect.php<br /><br />
 
-```php
-
-$localhost = " ";
-$username = " ";
-$password = " ";
-$dbname = " "; // Checkout /database/store.sql
-
-// db connection
-$connect = new mysqli($localhost, $username, $password, $dbname);
-// check connection
-if($connect->connect_error) {
-  die("Connection Failed : " . $connect->connect_error);
-} else {
-  echo "Successfully connected";
-}
-
-```
-*/
 ## Contact
 
 If you want to contact me, you can reach me through below handles. <br /><br />
