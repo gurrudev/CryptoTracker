@@ -6,6 +6,7 @@ import { CryptoContext } from '../CryptoContext'
 import 'react-alice-carousel/lib/alice-carousel.css';
 import AliceCarousel from 'react-alice-carousel'
 import { Link } from 'react-router-dom'
+import numberWithCommas from '../helper/numberWithCommas'
 
 const styles = makeStyles(()=>({
     carousal : {
@@ -24,9 +25,6 @@ const styles = makeStyles(()=>({
     }
 }))
 
-export function numberWithCommas(x){
-    return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")
-}
 
 
 function Carousal() {
