@@ -1,5 +1,5 @@
 <h1 align=""> Crypto Currency Tracker</h1>
-<h4 align="">Inventory Management System with php and mysql
+/*<h4 align="">Inventory Management System with php and mysql
 Invoice generation and easy to download invoice in PDF format
 Lightweight and easy to use
 Order management and product management can be done with ease
@@ -57,7 +57,7 @@ if($connect->connect_error) {
 }
 
 ```
-
+*/
 ## Contact
 
 If you want to contact me, you can reach me through below handles. <br /><br />
