@@ -113,7 +113,7 @@ function CoinPage() {
           </span>
         </div>
       </div>
-      <CoinInfo />
+      <CoinInfo coin={coin}/>
     </div>
   )
 }
