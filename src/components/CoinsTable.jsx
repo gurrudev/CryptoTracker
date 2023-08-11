@@ -81,7 +81,7 @@ function CoinsTable() {
                                 <LinearProgress style={{ backgroundColor: 'gold' }} />
                             ) : (
                                 <Table>
-                                    <TableHead style={{ backgroundColor: '#eebc1d' }}>
+                                    <TableHead style={{ backgroundColor: '#eebc1d',fontFamily: 'Montserrat' }}>
                                         <TableRow>
                                             {['Coin', 'Price', '24 Change', 'Market Cap',].map((head) => (
                                                 <TableCell style={{
@@ -127,29 +127,29 @@ function CoinsTable() {
                                                             <div
                                                                 style={{ display: 'flex', flexDirection: 'column', cursor: 'pointer' }}
                                                             >
-                                                                <span style={{ textTransform: 'uppercase', fontSize: 22, fontFamily: '' }}>
+                                                                <span style={{ textTransform: 'uppercase', fontSize: 22, fontFamily: 'Montserrat' }}>
                                                                     {row.symbol}
                                                                 </span>
 
-                                                                <span style={{ color: 'darkgray' }}>
+                                                                <span style={{ color: 'darkgray' , fontFamily: 'Montserrat'}}>
                                                                     {row.name}
                                                                 </span>
 
                                                             </div>
                                                         </TableCell>
-                                                        <TableCell align='right'>
+                                                        <TableCell align='right' style={{fontFamily: 'Montserrat'}}>
                                                             {symbol}{' '}
                                                             {numberWithCommas(row.current_price.toFixed(2))}
                                                         </TableCell>
 
                                                         <TableCell align='right'
-                                                            style={{ color: profit > 0 ? 'rgb(14, 203, 129)' : 'red', fontWeight: 500 }}
+                                                            style={{ color: profit > 0 ? 'rgb(14, 203, 129)' : 'red', fontWeight: 500 , fontFamily: 'Montserrat'}}
                                                         >
                                                             {profit && '+'}
                                                             {row.price_change_percentage_24h.toFixed(2)} %
                                                         </TableCell>
 
-                                                        <TableCell align='right'>
+                                                        <TableCell align='right' style={{fontFamily: 'Montserrat'}}>
                                                             {symbol} {' '}
                                                             {numberWithCommas(row.market_cap.toString().slice(0, -6))} M
                                                         </TableCell>

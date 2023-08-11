@@ -2,6 +2,7 @@ import React, { useContext } from 'react';
 import { AppBar, Container, MenuItem, Select, ThemeProvider, Toolbar, Typography, createTheme } from '@material-ui/core/';
 import { CryptoContext } from '../CryptoContext';
 import { makeStyles } from '@material-ui/core/styles'
+import { useNavigate } from 'react-router';
 const darkTheme = createTheme({
     palette: {
         primary: {
@@ -22,17 +23,22 @@ const useStyles = makeStyles(() => ({
     },
 }));
 
+
+
 function Header() {
+
     const classes = useStyles();
     const { currency, setCurrency } = useContext(CryptoContext); // Use useContext to access the CryptoContext values
 
+    const navigate = useNavigate()
+    
     console.log(currency)
     return (
         <ThemeProvider theme={darkTheme}>
             <AppBar color="transparent" position="static">
                 <Container>
                     <Toolbar>
-                        <Typography className={classes.title}>CryptoTracker</Typography>
+                        <Typography className={classes.title} onClick={(e)=> navigate('/')}>CryptoTracker</Typography>
 
                         <Select
                             variant="outlined"
