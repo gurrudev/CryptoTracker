@@ -81,7 +81,7 @@ function CoinPage() {
 
   }, [])
 
-  console.log(coin)
+  
 
  
   const classes = useStyles()
