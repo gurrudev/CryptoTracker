@@ -18,6 +18,12 @@
   <img src="https://img.shields.io/badge/Material_UI-27374D?style=for-the-badge&logo=mui&" alt="nodejs" />
 </p>
 
+<h4 align="">Api:</h4>
+
+<p align="">
+ <a href="https://www.coingecko.com" ><img src="https://img.shields.io/badge/CoinGecko-27374D?style=for-the-badge&logo=axios&logoColor=" alt="cyclic" /> </a>
+</p>
+
 <h4 align="">Deployed On:</h4>
 
 <p align="">
@@ -26,12 +32,14 @@
 
 <h4 align="">Screenshot:</h4>
 
-![Screenshot 2023-08-13 140424](https://github.com/gurrudev/Netflix-Clone/assets/80522156/652a2d46-be68-4ac5-afa5-b7d97f39f4c1) | ![Screenshot 2023-08-13 141937](https://github.com/gurrudev/Netflix-Clone/assets/80522156/078d7789-34c2-4fc4-b6ed-f59b57038d39) |
+![Screenshot 2023-08-13 170755](https://github.com/gurrudev/CryptoTracker/assets/80522156/6a22baaf-de8a-4723-b0aa-ed5aec65d1eb) | ![Screenshot 2023-08-13 170926](https://github.com/gurrudev/CryptoTracker/assets/80522156/98b31b67-3906-41b9-b993-36e78b91bd38) |
 | :---: | :---: | 
 
 <h3 align=""><a href="https://cryptotrackerno1.netlify.app/"><strong>Want to see live preview »</strong></a></h3>
 
+
 <br />
+
 
 📦 Install:
 ```sh
