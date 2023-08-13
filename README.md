@@ -1,5 +1,5 @@
-<h1 align=""> Crypto Currency Tracker</h1>
-<h4 align=""></h4>
+<h1 align=""> Cryptocurrency Tracker</h1>
+<h4 align="">The Cryptocurrency Tracker project is a powerful and user-friendly web application designed to provide real-time insights and updates on the dynamic world of cryptocurrencies.</h4>
 
    
 <br />
@@ -24,7 +24,7 @@
   <img src="https://img.shields.io/badge/Netlify-430098?style=for-the-badge&logo=netlify&logoColor=white" alt="cyclic" />
 </p>
 
-<h3 align=""><a href=""><strong>Want to see live preview »</strong></a></h3>
+<h3 align=""><a href="https://cryptotrackerno1.netlify.app/"><strong>Want to see live preview »</strong></a></h3>
 
 <br />
 
